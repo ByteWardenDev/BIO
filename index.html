@@ -147,60 +147,14 @@
                 gap: 30px;
             }
         }
-
-/* Add these new styles to your existing CSS */
-.header-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    margin-bottom: 20px;
-}
-
-.avatar {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid rgba(96, 165, 250, 0.5);
-    box-shadow: 0 0 20px rgba(96, 165, 250, 0.3);
-}
-
-/* Update the existing header h1 style to remove margin-bottom */
-.header h1 {
-    font-size: 3.5rem;
-    background: linear-gradient(135deg, #60a5fa, #3b82f6);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    letter-spacing: 2px;
-}
-
-/* Add this media query for responsive design */
-@media (max-width: 768px) {
-    .header-content {
-        flex-direction: column;
-        gap: 15px;
-    }
-    
-    .avatar {
-        width: 60px;
-        height: 60px;
-    }
-}
-
-        
     </style>
 </head>
 <body>
-<!-- Update the header div to include the avatar -->
-<div class="header">
-    <div class="header-content">
-        <img src="https://i.pinimg.com/736x/d0/fc/05/d0fc05ad092c7ef4922a7c5e994a4eaf.jpg" alt="Avatar" class="avatar">
-        <h1>OBSERVANT</h1>
-    </div>
-    <p>Python Developer</p>
-</div>
-
+    <div class="container">
+        <div class="header">
+            <h1>OBSERVANT</h1>
+            <p>Python Developer</p>
+        </div>
 
         <div class="cards-container">
             <div class="card">
