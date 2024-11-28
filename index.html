@@ -147,14 +147,41 @@
                 gap: 30px;
             }
         }
+        
+        .avatar {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto 30px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 3px solid rgba(96, 165, 250, 0.5);
+            box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .avatar:hover {
+            transform: scale(1.05);
+        }
+
+        .avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
+            <div class="avatar">
+                <img src="https://i.pinimg.com/736x/d0/fc/05/d0fc05ad092c7ef4922a7c5e994a4eaf.jpg" alt="Profile Picture">
+            </div>
             <h1>OBSERVANT</h1>
             <p>Python Developer</p>
         </div>
+    <h1>OBSERVANT</h1>
+    <p>Python Developer</p>
+</div>
 
         <div class="cards-container">
             <div class="card">
